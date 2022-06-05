@@ -1,0 +1,1085 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<link rel="shortcut icon" type="image/x-icon" href="images/icon-fav.png">  
+    <title>Trí Đức Thành</title> 
+    <link rel="stylesheet" href="skins/responsive.css" type="text/css" media="all">
+    <link rel="stylesheet" href="skins/font-awesome.css" type="text/css" media="all">
+	<link rel='stylesheet' href='skins/pe-icon-7-stroke.min.css' type="text/css" media="all">
+	<link rel="stylesheet" href="skins/jquery.fancybox.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="skins/carousel.css" type="text/css" media="all"> 
+	<link rel="stylesheet" href="skins/swiper.min.css" type="text/css" media="all"> 
+    <link rel="stylesheet" href="skins/menu-clean.css" type="text/css"  media="all"> 
+	<link rel="Stylesheet" href="skins/animate.css" type="text/css"  media="all">    
+    <link rel="stylesheet" href="skins/style.css" type="text/css" media="all">
+</head>
+
+<body>
+  
+<header> 
+    <div class="header-top">
+        <div class="container">    
+			<ul class="header-top-menu"> 
+				<li class="hidden-xs"><i class="fa fa-map-marker"></i> Thành Phú - TT.Quán Lào - Yên Định - Thanh Hóa</li>
+				<li><a href="tel:1900 2323 93"><i class="fa fa-phone"></i> 097 755 58 45</a></li>
+			</ul>  
+			<ul class="lang-switch"> 
+				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+				<li><a href="#"><a href="#"><img src="images/icon/icon-zalo.png" alt="Zalo"></a></li>
+				<li><a href="#"><a href="#"><img src="images/icon/icon-viber.png" alt="Viber"></a></li>
+				<li><a href="#" title="Trung Quốc"><a href="#"><img src="images/icon/china.png" alt="Trung Quốc"></a></li>
+				<li><a href="#" title="Tiếng Anh"><a href="#"><img src="images/icon/united-kingdom.png" alt="Tiếng Anh"></a></li>
+				<li><a href="#" title="Tiếng Việt"><a href="#"><img src="images/icon/vietnam.png" alt="Tiếng Việt"></a></li>
+			</ul> 
+		</div>	
+	</div>   
+    <div class="bghead">    
+        <div class="container">    	
+			<div class="wrapper">
+				<div class="logo-brand">
+					<h1>  
+						<a href="#"><img src="images/logo.png" alt=""  ></a>  
+					</h1> 
+				</div> 
+				<form method="get" action="" name="global-search" class="lang-vi searchbox">
+					<div class="search">
+						<div class="search-container clearfix">
+							<div class="inner"> 
+								<div class="has-suggestion"><input type="text" name="q" id="search-input" value="" placeholder="Tìm kiếm bài viết, trợ giúp..." autocomplete="off"></div> 
+							</div>
+						</div>
+					</div>
+				</form>
+				<div class="search__open"><i class="fa fa-search"></i></div>
+				<div class="ctn-header-btn"> 
+					<a data-fancybox="" data-src="#modal-send-faq" id="show-qa-form" href="#" class="phone-btn" title="Hỏi bác sĩ Trí Đức">
+						Hỏi bác sĩ Trí Đức
+					</a> 
+					<a data-fancybox="" data-src="#modal-send-dkk" id="booking-cta" href="#" class="booking-btn" title="Đăng ký khám">
+						Đăng ký khám
+					</a>
+				</div>
+				<div style="display: none;" id="modal-send-faq" class="animated-modal" >
+					<div class="popup-inner"> 
+						<div class="fix-md-ct">
+							<div class="modal-card">  
+								   <form method="POST" class="form-kmmm fix-f" name="">
+									  <div class="form-reg-kmn">
+										<div class="bg-form-drhan">
+											<div class="row"> 
+												<div class="col-md-12">
+													<div class="pop_dkkm">
+														<p>Gửi câu hỏi cho bác sĩ</p>
+														<div class="form-group"><input class="form-control" id="name_f" name="" type="text" placeholder="Họ và tên"></div>
+														<div class="form-group"><input class="form-control" id="phone_f" type="number" placeholder="Số điện thoại" name=""></div>
+														<div class="form-group"><input class="form-control" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" type="text" placeholder="Năm sinh" name=""></div>
+														<div class="form-group"><input class="form-control" id="email_f" type="text" placeholder="Email" name=""></div>
+														<div class="form-group">
+														  <select class="form-control" name="category">
+															  <option value="0">Chọn chủ đề muốn hỏi</option>
+															  <option value="1">Sản phụ khoa và Hỗ trợ sinh sản</option>
+															  <option value="2">Tim Mạch</option>
+															  <option value="3">Nhi</option>
+															  <option value="4">Ung bướu - Xạ trị</option>
+															  <option value="5">Sức khỏe tổng quát</option>
+															  <option value="6">Tiêu hóa - Gan mật</option>
+															  <option value="7">Cơ xương khớp</option>
+															  <option value="8">Tế bào gốc - Công nghệ gen</option>
+															  <option value="9">Dinh dưỡng và miễn dịch</option>
+															  <option value="10">Khác</option>
+														  </select> 
+														</div>
+														<div class="form-group">
+															 <textarea name="inquiry_info" placeholder="Câu hỏi dành cho bác sĩ (lưu ý mô tả chi tiết triệu chứng và diễn biến bệnh nếu có)" id="js-question-info" rows="3"></textarea>
+														</div>	 
+													   <button type="submit" value="Gửi câu hỏi" class="btn-submit" onclick="">Gửi câu hỏi</button> 
+													</div>
+												</div> 
+											</div>
+										</div>
+									  </div>
+								   </form> 
+							 </div>
+						</div>	 
+					</div>
+				</div><!-- End --> 
+				<div style="display: none;" id="modal-send-dkk" class="animated-modal" >
+					<div class="popup-inner"> 
+						<div class="fix-md-ct">
+							<div class="modal-card">  
+								   <form method="POST" class="form-kmmm fix-f" name="">
+									  <div class="form-reg-kmn">
+										<div class="bg-form-drhan">
+											<div class="row"> 
+												<div class="col-md-12">
+													<div class="pop_dkkm">
+														<p>ĐĂNG KÝ KHÁM VÀ TƯ VẤN TẠI Trí Đức</p>
+														<div class="form-group"><input class="form-control" id="name_f" name="" type="text" placeholder="Họ và tên"></div>
+														<div class="form-group"><input class="form-control" id="phone_f" type="number" placeholder="Số điện thoại" name=""></div>
+														<div class="form-group"><input class="form-control" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="Năm sinh" name=""></div>
+														<div class="form-group"><input class="form-control" id="email_f" type="text" placeholder="Email" name=""></div>
+														<div class="form-group"><input class="form-control" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" placeholder="Ngày khám bệnh" name=""></div>
+														<div class="form-group"><input class="form-control" type="text" onfocus="(this.type='time')" onblur="(this.type='text')" placeholder="Giờ khám bệnh" name=""></div>
+														<div class="form-group">
+															 <textarea name="inquiry_info" placeholder="Nhu cầu khám (Không bắt buộc)" id="js-question-info" rows="3"></textarea>
+														</div>	 
+													   <button type="submit" value="Gửi đi" class="btn-submit" onclick="">Gửi đi</button> 
+													</div>
+												</div> 
+											</div>
+										</div>
+									  </div>
+								   </form> 
+							 </div>
+						</div>	 
+					</div>
+				</div><!-- End -->
+			</div>
+		</div>
+		
+		<div class="bg-nav-click"> 
+			<div class="btn-mobile" data-toggle="collapse" data-target=".navbar-collapse">
+				<input type="checkbox">
+				<span class="top"></span>
+				<span class="middle"></span>
+				<span class="bottom"></span>
+				MENU
+			</div>
+		</div><!-- /.bg-nav-click -->
+		<div class="navbar-collapse collapse container">
+			<ul id="main-menu" class="sm sm-clean">
+				<li><a class="active" href="#">Trang chủ</a></li> 
+				<li><a href="#">Giới thiệu</a> 
+					<ul>    
+						<div class="drbox_border">
+							<li><a href="#">Giới thiệu chung</a></li>
+							<li><a href="#">Sơ đồ tổng thể</a></li>
+							<li><a href="#">Sơ đồ khoa phòng</a></li>
+							<li><a href="#">Giờ làm việc</a></li>
+							<li><a href="#">Mô hình bệnh viện thông minh</a></li>
+                            <li><a href="#">Lịch khám bác sĩ Hà Nội</a></li>	
+                            <li><a href="#">Văn bản pháp quy</a></li>							
+						</div>
+					</ul> 
+				</li> 	 
+				<li><a href="#">Dịch vụ</a> 
+					<ul>    
+						<div class="drbox_border">
+							<li><a href="#">Chăm sóc toàn diện</a></li>
+							<li><a href="#">Khám sức khỏe</a></li>
+							<li><a href="#">Chụp cắt lớp XQ</a></li> 
+							<li><a href="#">Siêu âm</a></li>
+							<li><a href="#">Xét nghiệm</a></li>
+							<li><a href="#">Nội soi</a></li>
+							<li><a href="#">Phẫu thuật- Thủ thuật</a></li>
+							<li><a href="#">Dịch vụ khác</a></li>
+						</div>
+					</ul> 
+				</li> 
+				<li class="has-mega-menu"><a href="#">Chuyên khoa</a>
+				     <ul class="mega-menu">
+						<li>
+							<div class="drbox_border_mega"> 
+								<ul class="list-menu-header">
+									<li><a href="#">Khoa nhi</a></li>
+									<li><a href="#">Khoa sản</a></li>
+									<li><a href="#">Khoa khám bệnh</a></li>
+									<li><a href="#">Khoa nội tổng hợp</a></li>
+									<li><a href="#">Khoa răng hàm mặt</a></li>
+									<li><a href="#">Khoa gây mê hồi sức</a></li>
+									<li><a href="#">Khoa tai mũi họng</a></li>
+									<li><a href="#">Khoa xét nghiệm</a></li>
+									<li><a href="#">Khoa hồi sức cấp cứu</a></li>
+									<li><a href="#">Khoa phục hồi chức năng</a></li>
+									<li><a href="#">Khoa mắt</a></li>
+									<li><a href="#">Khoa dược</a></li>
+									<li><a href="#">Khoa ngoại tổng hợp</a></li>
+									<li><a href="#">Khoa chẩn đoán hình ảnh, thăm dò chức năng</a></li>
+								</ul> 
+							</div>
+						</li>
+					</ul>
+				</li> 
+				<li><a href="#">Tìm bác sĩ</a></li>  
+				<li class="has-mega-menu"><a href="#">Chuyên gia</a>
+				     <ul class="mega-menu">
+						<li>
+							<div class="drbox_border_mega"> 
+								<ul class="list-menu-header">
+									<li><a href="#">Chẩn đoán hình ảnh</a></li>
+									<li><a href="#">Da liễu</a></li>
+									<li><a href="#">Đông y</a></li>
+									<li><a href="#">Khám sức khỏe</a></li>
+									<li><a href="#">Khoa nhi</a></li>
+									<li><a href="#">Khoa nội</a></li>
+									<li><a href="#">Menu cấp 2 nếu có</a></li>
+									<li><a href="#">Menu cấp 2 nếu có</a></li>
+									<li><a href="#">Menu cấp 2 nếu có</a></li>
+									<li><a href="#">Menu cấp 2 nếu có</a></li>
+									<li><a href="#">Menu cấp 2 nếu có</a></li>
+									<li><a href="#">Menu cấp 2 nếu có</a></li>
+								</ul> 
+							</div>
+						</li>
+					</ul>
+				</li> 
+				<li><a href="#">Khách hàng</a> 
+					<ul>    
+						<div class="drbox_border">
+							<li><a href="#">Căng tin bệnh viện</a></li>
+							<li><a href="#">Thông tin thẻ BHYT</a></li>
+							<li><a href="#">Bảng giá dịch vụ chung</a></li>
+							<li><a href="#">Hướng dẫn đặt lịch khám</a></li> 
+							<li><a href="#">Đội ngũ chăm sóc khách hàng</a></li>
+							<li><a href="#">Quy trình khám chữa bệnh</a></li>
+							<li><a href="#">Cản ơn từ người bệnh</a></li>
+						</div>
+					</ul> 
+				</li>
+                <li><a href="#">Tin tức</a> 
+					<ul>    
+						<div class="drbox_border">
+							<li><a href="#">Tin mới</a></li>
+							<li><a href="#">Sức khỏe thường thức</a></li>
+							<li><a href="#">Nhịp cầu nhân ái</a></li>
+							<li><a href="#">Hoạt động</a></li> 
+							<li><a href="#">Tin tuyển dụng</a></li> 							
+						</div>
+					</ul> 
+				</li> 
+				<li><a href="#">Tra cứu</a> 
+					<ul>    
+						<div class="drbox_border">
+							<li><a href="#">Tra cứu kết quả CLS</a></li>
+							<li><a href="#">Tra cứu hóa đơn</a></li> 					
+						</div>
+					</ul> 
+				</li> 
+                <li><a href="#">Khác</a> 
+					<ul>    
+						<div class="drbox_border"> 
+							<li><a href="#">Thư viện ảnh</a></li>
+							<li><a href="#">Video</a></li> 
+							<li><a href="#">Liên hệ</a></li> 					
+						</div>
+					</ul> 
+				</li>				
+			</ul><!-- /.nav --> 
+		</div><!-- /.navbar-collapse --> 
+    </div>  
+</header><!-- End --> 
+ 
+<main>   
+<section id="slide" class="banner-slide">  
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">  
+		<div class="carousel-inner"> 
+			<div class="item active">
+			    <a href="#"><img src="images/img_slide/banner1.jpg" alt=""></a>  
+			</div>  
+			<div class="item">
+			    <a href="#"><img src="images/img_slide/banner2.jpg" alt=""></a>  
+			</div> 
+			<div class="item">
+			    <a href="#"><img src="images/img_slide/banner3.jpg" alt=""></a>  
+			</div> 
+			<div class="item">
+			    <a href="#"><img src="images/img_slide/banner4.jpg" alt=""></a>  
+			</div>
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="icon-prev"><i class="fa fa-angle-left"></i></span></a>
+		    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="icon-next"><i class="fa fa-angle-right"></i></span></a>
+		</div> 
+    </div><!-- /.carousel -->   
+</section><!--End-slide-->  
+ 
+ 
+<section id="scheduling-triduc">
+	<div class="container section-wrapper">
+	    <div class="row"> 
+			<div class="col-sm-6 banner hidden-xs">
+				<img src="images/hospital-tdt.jpg">
+			</div>
+			<div class="col-sm-6 form">
+				<div class="form-title">
+					<span class="title">Đặt Lịch Khám</span>
+					<span class="sub-title">An tâm chăm sóc sức khoẻ của bạn</span>
+				</div>
+				<div id="personal-form">
+					<form class="register" action="/" method="post"  accept-charset="UTF-8">
+						<div class="row">
+							<div class="col-xs-6">
+								<div class="md-form">
+									<input placeholder="Nhập họ và tên" class="form-control" type="text" name="name" value="" size="60" maxlength="128">
+								</div>
+							</div>
+							<div class="col-xs-6">
+								<div class="md-form">
+									<input placeholder="Nhập email" class="form-control" type="text"  name="email" value="" size="60" maxlength="128">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-6">
+								<div class="md-form">
+									<input placeholder="Nhập SĐT Quý Khách" class="form-control" type="number"  name="phone" value="" size="30" maxlength="10">
+								</div>
+							</div>
+							<div class="col-xs-6">
+								<div class="md-form">
+									<input class="form-control" placeholder="Ngày sinh"  type="text" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" name="birthday" value="" size="60" maxlength="128">      			
+								</div> 
+							</div>
+						</div>
+			   
+						<div class="row">
+							<div class="col-md-12">
+								<div class="md-form">
+									<div class="form-textarea-wrapper">
+										<textarea placeholder="Nhu cầu khám bệnh" class="form-control form-textarea resize-vertical" data-drupal-selector="edit-requirement" id="edit-requirement--2" name="requirement" rows="5" cols="60"></textarea>
+									</div>
+								</div>
+							</div>
+						</div> 
+						<input class="btn-register" type="submit" id="edit-submit--2" name="op" value="Gửi Đi">
+					   
+					</form> 
+				</div>
+			</div>
+		</div>
+	</div>
+</section> <!--End--> 
+ 
+<section id="why-triduc">
+    <div class="container"> 
+	    <p class="title">Tại sao chọn<span> Bệnh viện Đa khoa Trí Đức Thành ?</span></p>
+		<div class="client_choose_body row">
+			<div class="col-md-3 col-sm-6 col-xs-6"> 
+				<div class="ifc_inst">  
+					<div>
+						<span class="img-icon"><img src="images/icon/c11.png" alt="" title=""></span>
+						<span class="inst_number">+10</span> 
+						<span class="ifc_inst_text">Năm kinh nghiệm</span>  
+					</div>
+				</div>
+			</div>
+		    <div class="col-md-3 col-sm-6 col-xs-6"> 
+				<div class="ifc_inst"> 
+					<div>
+						<span class="img-icon"><img src="images/icon/c12.png" alt="" title=""></span>
+						<span class="inst_number">+ 88</span> 
+						<span class="ifc_inst_text">Bác sĩ, chuyên gia</span> 
+					</div>	
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6"> 
+				<div class="ifc_inst"> 
+					<div>
+						<span class="img-icon"><img src="images/icon/c13.png" alt="" title=""></span>
+						<span class="inst_number">+ 20</span> 
+						<span class="ifc_inst_text">Bệnh viện phòng khám</span> 
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-6"> 
+				<div class="ifc_inst"> 
+					<div>
+						<span class="img-icon"><img src="images/icon/c14.png" alt="" title=""></span>
+						<span class="inst_number">+ 5000</span> 
+						<span class="ifc_inst_text">Khách hàng</span> 
+					</div>
+				</div>
+			</div>
+		</div>
+    </div> 
+</section><!--End--> 
+ 
+<section id="team-doctor">
+    <div class="container">
+		<div class="doctor-intro">
+			<div class="row">
+				<div class="col-md-8">
+					<h2>Đội ngũ bác sĩ</h2>
+					<p>Trí Đức Thành quy tụ đội ngũ chuyên gia, bác sĩ, dược sĩ và điều dưỡng được đào tạo bài bản đến chuyên sâu tại Việt nam và nhiều nước có nên y học phát triển như Mỹ, Anh, Pháp... Luôn lấy người bệnh là trung tâm, Vinmec cam kết mang lại dịch vụ chăm sóc sức khỏe toàn diện và chất lượng cao cho khách hàng.</p>    
+				</div>
+				<div class="col-md-4">
+					<a href="/" class="finding-doctor">
+						<img src="images/icon/ask-doctor-blue.svg" alt="" class="ask-dortor-icon" width="32" height="25">
+						Tìm kiếm bác sĩ
+						<img src="images/icon/arrow-right-blue.svg" alt="" width="18" height="10">
+					</a>
+				</div>
+			</div>
+		</div><!--End--> 
+		
+		<div class="swiper-container" id="doctor_slide">
+			<div class="swiper-wrapper"> 
+				<div class="swiper-slide">
+					<div class="experts-member">
+					    <div class="expert-member-image">
+							<a href="/" class="doctor-image" aria-label=""> 
+								<img class="doctor-image" alt="" src="images/doingu-bacsi/1.png"> 
+							</a>
+						</div> 
+						<div class="expert-member-intro">
+							<h4 class="view-details-doctor-title">  
+								<a href="/" class="doctor-title">
+									<span>
+										PGS, Tiến sĩ, Bác sĩ
+									</span>
+									Phạm Đức Huấn
+								</a> 
+							</h4>
+							<div class="doctor-description eclip-3">
+								<p>Chuyên gia hàng đầu Việt Nam về phẫu thuật tiêu hóa, thực hiện thành công hơn 1000 ca phẫu thuật nội ...</p>
+							</div>
+							<div class="view-more">
+								<a href="/" class="icon-plus">Xem thêm &gt;&gt;</a>    
+							</div> 
+						</div>  
+					</div> 
+				</div>
+				<div class="swiper-slide">
+					<div class="experts-member"> 
+					    <div class="expert-member-image">
+							<a href="/" class="doctor-image" aria-label=""> 
+								<img class="doctor-image lazy" alt="" src="images/doingu-bacsi/2.png"> 
+							</a>
+						</div>
+						<div class="expert-member-intro">
+							<h4 class="view-details-doctor-title">  
+								<a href="/" class="doctor-title">
+									<span>
+										Giáo sư, Tiến sĩ, Bác sĩ
+									</span>
+									VÕ THÀNH NHÂN
+								</a> 
+							</h4>
+							<div class="doctor-description eclip-3">
+								<p>Chuyên gia đầu tiên tại Việt Nam về can thiệp động mạch qua da (TAVI), có 40 năm kinh nghiệm giảng ...</p>
+							</div>
+							<div class="view-more">
+								<a href="/" class="icon-plus">Xem thêm &gt;&gt;</a>    
+							</div> 
+						</div> 
+					</div> 
+				</div>
+				<div class="swiper-slide">
+					<div class="experts-member">
+					    <div class="expert-member-image">
+							<a href="/" class="doctor-image" aria-label=""> 
+								<img class="doctor-image" alt="" src="images/doingu-bacsi/3.png"> 
+							</a>
+						</div> 
+						<div class="expert-member-intro">
+							<h4 class="view-details-doctor-title">  
+								<a href="/" class="doctor-title">
+									<span>
+										Bác sĩ chuyên khoa II
+									</span>
+									BÙI LÊ PHƯỚC THU THẢO
+								</a> 
+							</h4>
+							<div class="doctor-description eclip-3">
+								<p>15 năm kinh nghiệm trong lĩnh vực Ung bướu - Xạ trị, đặc biệt có chuyên môn sâu điều trị các ...</p>
+							</div>
+							<div class="view-more">
+								<a href="/" class="icon-plus" aria-label="">
+									<p>Xem thêm &gt;&gt;</p>
+								</a>    
+							</div> 
+						</div>  
+					</div> 
+				</div>
+				<div class="swiper-slide">
+					<div class="experts-member"> 
+					    <div class="expert-member-image">
+							<a href="/" class="doctor-image" aria-label=""> 
+								<img class="doctor-image lazy" alt="" src="images/doingu-bacsi/4.png"> 
+							</a>
+						</div>
+						<div class="expert-member-intro">
+							<h4 class="view-details-doctor-title">  
+								<a href="/" class="doctor-title">
+									<span>
+										Thạc sĩ, Bác sĩ
+									</span>
+									HỒ THỊ XUÂN NGA
+								</a> 
+							</h4>
+							<div class="doctor-description eclip-3">
+								<p>BS Hồ Thị Xuân Nga có 20 năm kinh nghiệm trong lĩnh vực Tim mạch, đặc biệt có thế mạnh về ...</p>
+							</div>
+							<div class="view-more">
+								<a href="/" class="icon-plus" aria-label="">
+									<p>Xem thêm &gt;&gt;</p>
+								</a>    
+							</div> 
+						</div> 
+					</div> 
+				</div>
+				<div class="swiper-slide">
+					<div class="experts-member">
+					    <div class="expert-member-image">
+							<a href="/" class="doctor-image" aria-label=""> 
+								<img class="doctor-image" alt="" src="images/doingu-bacsi/1.png"> 
+							</a>
+						</div> 
+						<div class="expert-member-intro">
+							<h4 class="view-details-doctor-title">  
+								<a href="/" class="doctor-title">
+									<span>
+										PGS, Tiến sĩ, Bác sĩ
+									</span>
+									Phạm Đức Huấn
+								</a> 
+							</h4>
+							<div class="doctor-description eclip-3">
+								<p>Chuyên gia hàng đầu Việt Nam về phẫu thuật tiêu hóa, thực hiện thành công hơn 1000 ca phẫu thuật nội ...</p>
+							</div>
+							<div class="view-more">
+								<a href="/" class="icon-plus" aria-label="">
+									<p>Xem thêm &gt;&gt;</p>
+								</a>    
+							</div> 
+						</div>  
+					</div> 
+				</div>
+				<div class="swiper-slide">
+					<div class="experts-member"> 
+					    <div class="expert-member-image">
+							<a href="/" class="doctor-image" aria-label=""> 
+								<img class="doctor-image lazy" alt="" src="images/doingu-bacsi/2.png"> 
+							</a>
+						</div>
+						<div class="expert-member-intro">
+							<h4 class="view-details-doctor-title">  
+								<a href="/" class="doctor-title">
+									<span>
+										Giáo sư, Tiến sĩ, Bác sĩ
+									</span>
+									VÕ THÀNH NHÂN
+								</a> 
+							</h4>
+							<div class="doctor-description eclip-3">
+								<p>Chuyên gia đầu tiên tại Việt Nam về can thiệp động mạch qua da (TAVI), có 40 năm kinh nghiệm giảng ...</p>
+							</div>
+							<div class="view-more">
+								<a href="/" class="icon-plus" aria-label="">
+									<p>Xem thêm &gt;&gt;</p>
+								</a>    
+							</div> 
+						</div> 
+					</div> 
+				</div>
+				<div class="swiper-slide">
+					<div class="experts-member"> 
+					    <div class="expert-member-image">
+							<a href="/" class="doctor-image" aria-label=""> 
+								<img class="doctor-image lazy" alt="" src="images/doingu-bacsi/2.png"> 
+							</a>
+						</div>
+						<div class="expert-member-intro">
+							<h4 class="view-details-doctor-title">  
+								<a href="/" class="doctor-title">
+									<span>
+										Giáo sư, Tiến sĩ, Bác sĩ
+									</span>
+									VÕ THÀNH NHÂN
+								</a> 
+							</h4>
+							<div class="doctor-description eclip-3">
+								<p>Chuyên gia đầu tiên tại Việt Nam về can thiệp động mạch qua da (TAVI), có 40 năm kinh nghiệm giảng ...</p>
+							</div>
+							<div class="view-more">
+								<a href="/" class="icon-plus">Xem thêm &gt;&gt;</a>    
+							</div> 
+						</div> 
+					</div> 
+				</div>
+				<div class="swiper-slide">
+					<div class="experts-member"> 
+					    <div class="expert-member-image">
+							<a href="/" class="doctor-image" aria-label=""> 
+								<img class="doctor-image lazy" alt="" src="images/doingu-bacsi/4.png"> 
+							</a>
+						</div>
+						<div class="expert-member-intro">
+							<h4 class="view-details-doctor-title">  
+								<a href="/" class="doctor-title">
+									<span>
+										Thạc sĩ, Bác sĩ
+									</span>
+									HỒ THỊ XUÂN NGA
+								</a> 
+							</h4>
+							<div class="doctor-description eclip-3">
+								<p>BS Hồ Thị Xuân Nga có 20 năm kinh nghiệm trong lĩnh vực Tim mạch, đặc biệt có thế mạnh về ...</p>
+							</div>
+							<div class="view-more">
+								<a href="/" class="icon-plus" aria-label="">
+									<p>Xem thêm &gt;&gt;</p>
+								</a>    
+							</div> 
+						</div> 
+					</div> 
+				</div>
+			</div>
+			<div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div><!--End--> 				
+	</div> 
+</section><!--End--> 
+
+<section id="service-triduc">
+    <div class="container"> 
+		<div class="title-triduc">
+			<h2>Dịch vụ nổi bật tại Trí Đức</h2> 
+			<div class="viewall">
+				<a href="/">
+					Xem tất cả
+					<img alt="" class="lazy" src="images/icon/icon-circle-blue.svg">
+				</a>
+			</div>
+		</div>  
+		<div class="row">
+		    <div class="swiper-container" id="news_slide">
+				<div class="swiper-wrapper"> 
+					<div class="swiper-slide">
+						<div class="news-card">
+							<picture class="news-card__img"><a href="/"><img src="images/dv1.jpg" alt="" title=""></a></picture>
+							<div class="news-card__info">
+								<div class="news-card__title"><a href="/">Thay van tim qua da không cần phẫu thuật tại Trí Đức</a></div> 
+
+								<div class="text-content">
+									<p><span>Thay van tim qua da không cần phẫu thuật là một trong những kỹ thuật thay van tim phức tạp nhất thế giới giúp sức khỏe bệnh nhân được cải thiện rõ rệt, đặc biệt là khả năng hồi phục nhanh...</span></p> 
+								</div>
+								<a href="/" class="btn-arrow--primary">Xem thêm <i class="fa fa-long-arrow-right"></i></a>    
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="news-card">
+							<picture class="news-card__img"><a href="/"><img src="images/dv2.jpg" alt="" title=""></a></picture>
+							<div class="news-card__info">
+								<div class="news-card__title"><a href="/">Phẫu thuật robot/phẫu thuật nội soi robot hỗ trợ</a> </div>
+
+								<div class="text-content">
+									<p><span>Phẫu thuật Robot với cấu trúc tinh vi có thể đáp ứng nhu cầu phẫu thuật với các yêu cầu cao nhất. Bài viết nhằm đưa đến độc giả những thông tin cơ bản về lịch sử phát triển</span></p> 
+								</div>
+								<a href="/" class="btn-arrow--primary">Xem thêm <i class="fa fa-long-arrow-right"></i></a>    
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="news-card">
+							<picture class="news-card__img"><a href="/"><img src="images/dv3.jpg" alt="" title=""></a></picture>
+							<div class="news-card__info">
+								<div class="news-card__title"><a href="/">Gói thu thập, xử lý và lưu trữ Máu cuống rốn/Dây rốn</a></div> 
+
+								<div class="text-content">
+									<p><span>Tế bào gốc: là những tế bào có thể phân chia, biệt hóa thành một hay nhiều loại tế bào bào có chức năng chuyên biệt để từ đó phát triển thành các mô, cơ quan khác nhau trong cơ thể...</span></p> 
+								</div>
+								<a href="/" class="btn-arrow--primary">Xem thêm <i class="fa fa-long-arrow-right"></i></a>    
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="news-card">
+							<picture class="news-card__img"><a href="/"><img src="images/dv4.jpg" alt="" title=""></a></picture>
+							<div class="news-card__info">
+								<div class="news-card__title"><a href="/">Trí Đức áp dụng Plasma lạnh - Công nghệ tiên tiến nhất hỗ trợ điều trị vết thương sau sinh</a></div> 
+
+								<div class="text-content">
+									<p><span>Liều lượng Plasma sẽ được chỉ định phù hợp với từng trường hợp. Tùy theo đáp ứng sau mỗi lần chiếu, bác sĩ sẽ chỉ định lần chiếu tiếp theo. Hầu hết chỉ cần thực hiện từ 2 - 3 lần. </span></p> 
+								</div>
+								<a href="/" class="btn-arrow--primary">Xem thêm <i class="fa fa-long-arrow-right"></i></a>    
+							</div>
+						</div>
+					</div> 
+					<div class="swiper-slide">
+						<div class="news-card">
+							<picture class="news-card__img"><a href="/"><img src="images/dv5.jpg" alt="" title=""></a></picture>
+							<div class="news-card__info">
+								<div class="news-card__title"><a href="/">Quy trình Ghép tế bào gốc điều trị bại não</a></div> 
+
+								<div class="text-content">
+									<p><span>Liệu pháp tế bào gốc là phương pháp điều trị bại não còn rất mới trên thế giới. Tế bào gốc được tách chiết từ tủy xương trong môi trường vô trùng tuyệt đối và truyền vào cơ thể bệnh nhân qua đường cột sống lưng </span></p> 
+								</div>
+								<a href="/" class="btn-arrow--primary">Xem thêm <i class="fa fa-long-arrow-right"></i></a>    
+							</div>
+						</div>
+					</div>
+				</div>	
+				<div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>				
+		</div>
+    </div>  
+</section><!--End--> 
+
+<section id="art-equipment">
+    <div class="container">
+	    <div class="row">
+			<div class="col-md-9 post-detail">
+				<div class="row">
+					<div class="col-md-4 post-intro">
+						<h2>Trang thiết bị hiện đại nhất thế giới</h2>
+						<p>
+							Sở hữu không gian khám chữa bệnh văn minh, sang trọng, hiện đại, Trí Đức chú trọng đầu tư đồng bộ hệ thống trang thiết bị hiện đại hàng đầu thế giới, hỗ trợ hiệu quả cho việc chẩn đoán và điều trị.
+						</p>
+						<a href="/" title="" class="viewmore-btn popup-view-btn" >
+							xem chi tiết 
+						</a>
+					</div>
+					<div class="col-md-7 list-strengths">
+						<h5>Phòng mổ Hybrid hiện đại nhất thế giới</h5>
+						<ul><li>•   Phòng Hybrid Discovery IGS 730 (của hãng GE Healthcare - Mỹ) đầu tiên tại Việt Nam</li></ul>
+						<h5>Máy chụp cắt lớp tiên tiến CT Ccan 640 lát</h5>
+						<ul>
+							<li>•  Tốc độ chụp nhanh, độ phân giải cao</li><li>•   Ứng dụng trong chụp mạch vành mà không phải sử dụng thuốc hạ nhịp tim, giảm liều tia xạ cho người bệnh.</li>
+						</ul>
+						<h5>Hệ thống SPECT/CT 16 dãy hiện đại</h5>
+						<ul>
+							<li>•   Sử dụng chất đánh dấu phóng xạ đặc hiệu để đánh giá chức năng tưới máu cơ tim, gan, thận,....</li>
+							
+						</ul>
+						<h5>Máy xạ trị gia tốc Truebeam NDS120HD V2.7 (Mỹ)</h5>
+						<ul>
+							<li>• Trang bị công nghệ HyperArc, giúp việc xạ phẫu bằng máy gia tốc trở nên chính xác và rút ngắn.</li>
+						</ul>
+						<h5>Phòng Nội trú tiêu chuẩn quốc tế</h5>
+						<ul>
+							<li>• Phòng Tiêu chuẩn</li>
+							<li>• Phòng VIP</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 image-area">
+				<img alt="" src="images/co-so-vat-chat.jpg">
+			</div>
+		</div> 
+	</div> 
+</section><!--End--> 
+
+<section id="diseases-triduc">
+    <div class="container">
+	    <div class="row">
+		    <div class="block-title">
+				<h2>Các chuyên khoa</h2>
+				<p>Danh sách toàn bộ các Khoa &amp; Chuyên khoa tại bệnh viện đa khoa Trí Đức Thành</p>
+			</div>
+			
+			<div class="swiper-container" id="diseases_slide">
+				<div class="swiper-wrapper"> 
+					<div class="swiper-slide">
+					    <a href="/">
+							<div class="appointment">
+								<img src="images/ck1.jpg" alt="finger">
+								<span>Tim mạch</span>
+							</div>
+						</a>
+					</div>
+					<div class="swiper-slide">
+					    <a href="/">
+							<div class="appointment">
+								<img src="images/ck2.jpg" alt="finger">
+								<span>Cơ xương khớp</span>
+							</div>
+						</a>
+					</div> 
+					<div class="swiper-slide">
+					    <a href="/">
+							<div class="appointment">
+								<img src="images/ck3.png" alt="finger">
+								<span>Vắc - xin</span>
+							</div>
+						</a>
+					</div>
+					<div class="swiper-slide">
+					    <a href="/">
+							<div class="appointment">
+								<img src="images/ck4.jpg" alt="finger">
+								<span>Nhi</span>
+							</div>
+						</a>
+					</div>
+					<div class="swiper-slide">
+					    <a href="/">
+							<div class="appointment">
+								<img src="images/ck6.png" alt="finger">
+								<span>Tế bào gốc và Công nghệ gen Vinmec</span>
+							</div>
+						</a>
+					</div>
+					<div class="swiper-slide">
+					    <a href="/">
+							<div class="appointment">
+								<img src="images/ck7.png" alt="finger">
+								<span>Sản phụ khoa và hỗ trợ sinh sản</span>
+							</div>
+						</a>
+					</div>
+					<div class="swiper-slide">
+					    <a href="/">
+							<div class="appointment">
+								<img src="images/ck3.jpg" alt="finger">
+								<span>Ung bướu - Xạ trị</span>
+							</div>
+						</a>
+					</div>
+					<div class="swiper-slide">
+					    <a href="/">
+							<div class="appointment">
+								<img src="images/ck8.jpg" alt="finger">
+								<span>Tiêu hóa - Gan mật</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+            </div>				
+        </div> 
+	</div> 
+</section><!--End-->
+  
+<section class="section-3">
+    <div class="s3-block container" id="js-tab-home-project">
+        <div class="menu-tab-home-project">
+            <div class="project-title">
+                <div class="title">Video - Tin tức </div>
+                <div class="label">Trí Đức Thành</div>
+            </div>
+            <div class="project-tab-block wow fadeInRight">
+                <ul> 
+                    <li>
+                        <a href="#" class="">Tin nội bộ</a>
+                    </li> 
+                    <li>
+                        <a href="#" class="">Tin khuyến mãi</a>
+                    </li> 
+                </ul>
+            </div>
+        </div>
+        <div class="home-project">
+            <div class="home-project-tab" id="project-tab-1">
+                <div class="home-news-project-hightlight wow fadeInLeft">
+                    <div class="item">
+                        <a data-fancybox href="https://www.youtube.com/embed/Z77Ahw71910?rel=0&controls=0&showinfo=0&autoplay=1" class="img" >
+                            <div class="bg" style="background-image: url('images/video.jpg');"></div>
+                            <div class="bg-hover"></div>
+                        </a> 
+                    </div>
+                </div>
+                <div class="home-news-project-list wow fadeInRight">
+                    <div class="swiper-container" id="project-slide-tab-1">
+                        <div class="swiper-wrapper">
+						    <div class="swiper-slide">
+                                <div class="item">
+                                    <a class="bg-grd" href="/" style="background-image: url('images/n4.png');">
+                                        <div class="text">
+                                            <p>Có nên trì hoãn việc tiêm chủng trong đợt dịch Covid-19?</p>
+                                            <div class="view">Chi tiết</div>
+                                        </div>
+                                    </a>
+                                    <div class="news_item-text">
+                                        <div class="title">
+                                            <a href="/">Có nên trì hoãn việc tiêm chủng trong đợt dịch Covid-19?</a> 
+                                        </div>
+                                        <div class="view">
+                                            <a href="/"> Chi tiết<span></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+							<div class="swiper-slide">
+                                <div class="item">
+                                    <a class="bg-grd" href="/" style="background-image: url('images/g6.jpg');">
+                                        <div class="text">
+                                            <p>Dấu hiệu nhận biết của ung thư di căn mà bạn không nên bỏ qua</p>
+                                            <div class="view">Chi tiết</div>
+                                        </div>
+                                    </a>
+                                    <div class="news_item-text">
+                                        <div class="title">
+                                            <a href="/">Dấu hiệu nhận biết của ung thư di căn mà bạn không nên bỏ qua</a> 
+                                        </div>
+                                        <div class="view">
+                                            <a href="/"> Chi tiết<span></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>		
+							<div class="swiper-slide">
+                                <div class="item">
+                                    <a class="bg-grd" href="/" style="background-image: url('images/g5.jpg');">
+                                        <div class="text">
+                                            <p>Bé bị ho có đờm và sổ mũi xanh báo hiệu bệnh gì ?</p>
+                                            <div class="view">Chi tiết</div>
+                                        </div>
+                                    </a>
+                                    <div class="news_item-text">
+                                        <div class="title">
+                                            <a href="/">Bé bị ho có đờm và sổ mũi xanh báo hiệu bệnh gì ?</a> 
+                                        </div>
+                                        <div class="view">
+                                            <a href="/"> Chi tiết<span></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <a class="bg-grd" href="/" style="background-image: url('images/g7.jpg');">
+                                        <div class="text">
+                                            <p>Các phương pháp điều trị u tuyến thượng thận</p>
+                                            <div class="view">Chi tiết</div>
+                                        </div>
+                                    </a>
+                                    <div class="news_item-text">
+                                        <div class="title">
+                                            <a href="/">Các phương pháp điều trị u tuyến thượng thận</a>
+                                        </div>
+                                        <div class="view">
+                                            <a href="/"> Chi tiết<span></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  
+                            <div class="swiper-slide">
+                                <div class="item">
+                                    <a class="bg-grd" href="/" style="background-image: url('images/n6.png');">
+                                        <div class="text">
+                                            <p>Bật Mí Các Xóa Nếp Nhăn Vùng Mắt Hiệu Quả Nhanh Nhất</p>
+                                            <div class="view">Chi tiết</div>
+                                        </div>
+                                    </a>
+                                    <div class="news_item-text">
+                                        <div class="title">
+                                            <a href="/">Bật Mí Các Xóa Nếp Nhăn Vùng Mắt Hiệu Quả Nhanh Nhất</a> 
+                                        </div>
+                                        <div class="view">
+                                            <a href="/"> Chi tiết<span></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>		
+							<div class="swiper-slide">
+                                <div class="item">
+                                    <a class="bg-grd" href="/" style="background-image: url('images/n7.png');">
+                                        <div class="text">
+                                            <p>Phẫu Thuật Mở Rộng Góc Mắt Là Gì? Bao Nhiêu Tiền?</p>
+                                            <div class="view">Chi tiết</div>
+                                        </div>
+                                    </a>
+                                    <div class="news_item-text">
+                                        <div class="title">
+                                            <a href="/">Phẫu Thuật Mở Rộng Góc Mắt Là Gì? Bao Nhiêu Tiền?</a> 
+                                        </div>
+                                        <div class="view">
+                                            <a href="/"> Chi tiết<span></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>		
+                        </div> 
+                    </div> 
+                </div>
+                <div class="swiper-pagination pagination-page"></div>
+            </div> 
+        </div>
+    </div>
+</section><!--End--> 
+
+</main>    
+     
+<footer class="footer">
+    <div class="container">
+        <div class="row right-line">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="footer-logo">
+                    <a class="border" href="/"><img src="images/logo.png" alt=""></a>
+                </div>
+            </div>
+
+            <div class="footer-item-local col-xs-12 col-sm-6 col-md-5">
+                <div class="footer-contact">
+                    <div class="footer-contact__title">Công ty cổ phần y dược Trí đức<br>Bệnh viện đa khoa Trí Đức Thành</div>
+                    <div class="footer-contact__item">
+                        <i class="fa fa-map-marker"></i>
+                        <span>Hội sở chính: Thành Phú - TT.Quán Lào - Yên Định - Thanh Hóa</span>
+                    </div>
+                    <div class="footer-contact__item">
+                        <i class="fa fa-phone"></i>
+                        <span>097 755 58 45</span>
+                    </div>
+                    <div class="footer-contact__item">
+                        <i class="fa fa-envelope"></i>
+                        <span>triducthanhhospital@gmail.com</span>
+                    </div>
+					<div class="footer-contact__item"><a href="#"><img width="" src="skins/images/logoSaleNoti.png"></a></div>
+                </div>
+            </div>
+
+            <div class="footer-item-local col-xs-12 col-sm-6 col-md-2">
+                <div class="footer-contact">
+                    <div class="footer-contact__title">Về chúng tôi</div>
+					<ul class="menu-footer">
+                        <li><a href="#">Giới thiệu chung</a></li>
+						<li><a href="#">Sơ đồ tổng thể</a></li>
+						<li><a href="#">Sơ đồ khoa phòng</a></li>
+						<li><a href="#">Giờ làm việc</a></li>
+						<li><a href="#">Mô hình bệnh viện thông minh</a></li>
+						<li><a href="#">Lịch khám bác sĩ Hà Nội</a></li>	
+						<li><a href="#">Văn bản pháp quy</a></li>
+					</ul> 
+                </div>
+            </div>
+			<div class="footer-item-local col-xs-12 col-sm-6 col-md-2">
+                <div class="footer-contact">
+                    <div class="footer-contact__title">Dịch vụ Trí Đức</div>
+					<ul class="menu-footer">
+                        <li><a href="#">Chăm sóc toàn diện</a></li>
+						<li><a href="#">Khám sức khỏe</a></li>
+						<li><a href="#">Chụp cắt lớp XQ</a></li> 
+						<li><a href="#">Siêu âm</a></li>
+						<li><a href="#">Xét nghiệm</a></li>
+						<li><a href="#">Nội soi</a></li>
+						<li><a href="#">Phẫu thuật- Thủ thuật</a></li>
+						<li><a href="#">Dịch vụ khác</a></li>
+					</ul> 
+                </div>
+            </div>
+			<div class="footer-item-local col-xs-12 col-sm-6 col-md-3">
+			    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7500.466064595497!2d105.65341469811783!3d19.9566998055647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3136f30b97451b99%3A0x689049cfe542e78b!2zQuG7h25oIFZp4buHbiDEkGEgS2hvYSBUcsOtIMSQ4bupYyBUaMOgbmg!5e0!3m2!1svi!2s!4v1626774266683!5m2!1svi!2s" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>		
+			</div>
+        </div> 
+        <div class="copy-right">
+            <p>© Bản Quyền Thuộc Về Bệnh Viện Đa Khoa Trí Đức Thành. All Rights Reserved.</p>
+            <div class="copy-right__icons">
+                <a href="/"><span class="fa fa-youtube"></span></a>
+
+                <a href="/"><span class="fa fa-facebook"></span></a>
+            </div>
+        </div>
+    </div>
+</footer><!-- End-footer -->
+  
+<a href="#" class="scrollup">Top</a>   
+  
+<script type="text/javascript" src="js/jquery.min.js"></script>  
+<script type="text/javascript" src="js/bootstrap.min.js"></script>     
+<script type="text/javascript" src="js/jquery.smartmenus.js"></script>  
+<script type="text/javascript" src="js/swiper.min.js"></script>    
+<script type="text/javascript" src="js/wow.min.js"></script>  
+<script type="text/javascript" src="js/jquery.easing.min.js"></script>  
+<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="js/call-option.js"></script>
+ 	
+</body>
+</html>
